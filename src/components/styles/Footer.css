@@ -1,0 +1,75 @@
+.footer{
+  align-items: center;
+  border-top: 1px solid rgb(0, 0, 0, .1);
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.icons-container{
+  height: 100px;
+  padding: 0 2rem
+}
+
+.icons{
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.icons-footer{
+  color: #5c8894;
+  transition: .3s ease-in-out;
+}
+
+.icons-footer:hover{
+  color: var(--dark-brown);
+  transform: scale(1.08);
+}
+
+.mariana-photo{
+  display: block;
+  filter: sepia(0);
+  transition: .3s ease-in-out;
+  -webkit-filter: sepia(0);
+  -webkit-transition: .3s ease-in-out;
+  max-width: 300px;
+}
+
+.mariana-photo:hover{
+  filter: sepia(20%);
+  -webkit-filter: sepia(100%);
+}
+
+.dfa-logo{
+  max-width: 300px;
+}
+
+@media screen and (max-width: 770px){
+  .footer{  
+  flex-direction: column;
+  gap: 0;
+  }
+
+.mariana-photo{
+  display:none
+}
+
+  .dfa-logo{
+    width: 150px
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .photo-footer{
+    display: block;
+  }
+
+  .dfa-logo{
+    width: 200px
+  }
+}

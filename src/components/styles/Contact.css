@@ -1,0 +1,27 @@
+.contact-page{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.link-contact-div{
+  margin: 1rem auto
+}
+
+.link-contact{
+  display: flex;
+  font-size: 1.3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #5c8894;
+  transition: all 0.3s ease-in-out;
+}
+
+.link-contact:hover{
+  color: var(--dark-brown);
+}
+
+h2{
+  margin-bottom: 1rem;
+}

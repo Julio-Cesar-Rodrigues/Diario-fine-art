@@ -1,0 +1,52 @@
+.photo-perfil{
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.about-page{ 
+  display: flex;
+  margin-top: 2rem;
+}
+
+.side-about{
+  background-color: var(--light-brown);
+  box-sizing: border-box;
+  float: right;
+  padding: 3rem;
+  width: 50%
+}
+
+.resume-area{
+  margin: 2rem auto
+}
+
+ul{
+  margin-left: 1rem
+}
+
+.side-experience{
+  align-items: center;
+  background-color: var(--skin-color);
+  float: left;
+  padding: 3rem;
+  width: 100%;
+}
+
+.section-about{
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 1260px){
+.photo-perfil{
+  width: 150px;
+}
+
+  .about-page{
+    flex-direction: column
+  }
+
+  .side-about{
+    width: 100%
+  }
+}
