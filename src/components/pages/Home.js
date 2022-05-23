@@ -108,7 +108,7 @@ const Home = ({ slides }) => {
             <p className="testemonials-text text-principal">
               Mari parabéns pelo seu trabalho incrível, simpatia e carinho. Amei
               poder fazer parte desse momento especial para a princesa Clarissa.
-              Estou apaionada e encantada com cada clique, pois todos eles
+              Estou apaixonada e encantada com cada clique, pois todos eles
               mostram a emoção e o sentimento capturados em forma de imagem.
               Muito obrigada e muito sucesso.
             </p>
@@ -116,7 +116,7 @@ const Home = ({ slides }) => {
           <div className="grid-item">
             <img className="img-testemonial " src={testemonials2} alt="" />
             <p className="testemonials-text text-principal">
-              Amo tanto esse carinho que você tem pelos cllientessss, nuca perca
+              Amo tanto esse carinho que você tem pelos clientessss, nunca perca
               essa essência Mari. Você é dms ♡.
             </p>
           </div>
@@ -136,7 +136,7 @@ const Home = ({ slides }) => {
               <h2 className="title-principal title-card">Voçê é incrível</h2>
               <p className="text-principal">
                 Tímido com câmeras? Sem problemas. Conhecemos nossos clientes
-                como humanos primeiro, para que você possa se sentir confiante,
+                como humanos, para que você possa se sentir confiante,
                 se divertir e mostrar essa vibração atemporal de vocês.
                 Não é necessário rigidez, sorrisos forçados ou comportamento de
                 modelo.
