@@ -1,5 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+
+import { createRoot } from 'react-dom/client'
+
 import App from './App'
 import Contact from './components/pages/Contact'
 import About from './components/pages/About'
@@ -9,7 +11,10 @@ import { Footer } from './components/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-ReactDOM.render(
+const container = document.getElementById('root')
+const root = createRoot(container)
+
+root.render(
   <Router>
     <Navbar />
     <Routes>
@@ -19,6 +24,5 @@ ReactDOM.render(
       <Route exact path="/faq" element={<Faq />} />
     </Routes>
     <Footer />
-  </Router>,
-  document.getElementById('root')
+  </Router>
 )

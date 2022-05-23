@@ -11,6 +11,7 @@ export const Footer = () => {
         <h2 className="title-principal">Me enconte em</h2>
         <div className="icons">
           <a
+            rel="noopener"
             className="icons-footer"
             href="https://www.facebook.com/diariofineart"
             target="_blank"
@@ -18,6 +19,7 @@ export const Footer = () => {
             <FaFacebookSquare />
           </a>
           <a
+            rel="noopener"
             className="icons-footer"
             href="https://www.instagram.com/diariofineart/"
             target="_blank"
@@ -25,6 +27,7 @@ export const Footer = () => {
             <FaInstagram />
           </a>
           <a
+            rel="noopener"
             className="icons-footer"
             href="https://wa.me/message/UW2HMKTBJDLPD1"
             target="_blank"
@@ -35,7 +38,11 @@ export const Footer = () => {
       </div>
 
       <div className="photo-footer">
-        <a href="https://www.instagram.com/moncoress/" target="_blank">
+        <a
+          rel="noopener"
+          href="https://www.instagram.com/moncoress/"
+          target="_blank"
+        >
           <img className="mariana-photo" src={`${mariana}`} alt="Mariana" />
         </a>
       </div>

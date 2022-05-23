@@ -147,7 +147,7 @@ const Home = ({ slides }) => {
 
         <div className="img-logo-container container">
           <div className="logo-container">
-            <img src={logo} className="img-logo" />
+            <img src={logo} className="img-logo" alt="logo-imagem" />
           </div>
           <p className="text-principal">
             Toda a proposta da nova marca e identidade visual de Diário Fine Art
