@@ -25,7 +25,7 @@ export const Navbar = () => {
           <li>Sobre Mim</li>
         </Link>
         <Link to="/contact" className="link-navbar">
-          <li>Contact</li>
+          <li>Contato</li>
         </Link>
         <Link to="/faq" className="link-navbar">
           <li>Dúvidas</li>
