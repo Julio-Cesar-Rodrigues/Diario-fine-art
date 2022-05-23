@@ -137,7 +137,7 @@ const Home = ({ slides }) => {
               <p className="text-principal">
                 Tímido com câmeras? Sem problemas. Conhecemos nossos clientes
                 como humanos primeiro, para que você possa se sentir confiante,
-                se divertir e mostrar essa vibração atemporal de vocês. vocês.
+                se divertir e mostrar essa vibração atemporal de vocês.
                 Não é necessário rigidez, sorrisos forçados ou comportamento de
                 modelo.
               </p>
