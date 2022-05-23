@@ -8,7 +8,7 @@ const Faq = () => {
   return (
     <div>
       <div className="container faq-container">
-        <h1 className="title-principal">6 Principais duvidas os ensaios</h1>
+        <h1 className="title-principal">6 Principais dúvidas sobre os ensaios</h1>
 
         <ol>
           <li>
@@ -32,7 +32,7 @@ const Faq = () => {
             <p className="text-principal">
               Alguns pacotes incluem roupas e acessórios do acervo, mas de
               qualquer forma estarei te auxiliando com inspirações de looks para
-              tornar a escola mais tranquila.
+              tornar a escolha mais tranquila.
             </p>
           </li>
           <li>
@@ -55,11 +55,11 @@ const Faq = () => {
             <h2 className="title-secundary">Posso levar alguém?</h2>
             <ul className="text-alt">
               <li>Claro que sim! Essa pessoa nos ajudará durante o ensaio.</li>
-              <li>Você se sentiria confortavel posando na frente dela?</li>
+              <li>Você se sentiria confortável posando na frente dela?</li>
             </ul>
             <p className="text-principal">
-              Vale parentes, amigo e até namorado. Contando que você se sintaà
-              contade na frente daquela pessoa.
+              Vale parentes, amigo e até namorado. Contando que você se sinta à
+              vontade na frente daquela pessoa.
             </p>
           </li>
           <li>
@@ -67,7 +67,7 @@ const Faq = () => {
             <ul className="text-alt">
               <li>O ensaio dura em média 1h à 2:30h;</li>
               <li>Combine com o motorista o horário de ida e de volta;</li>
-              <li>Precisamos chegar com 30 min ou mais de antecedencia.</li>
+              <li>Precisamos chegar com 30mins ou mais de antecedencia.</li>
             </ul>
             <p className="text-principal">
               O tempo é nosso maior aliado na hora de fotografar. Não podemos
